@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', serif;
 }
 
 .main_container{
@@ -45,4 +47,63 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 0px 5px 0px 0px;
+}
+
+.welcome{
+    height: 810px;
+    background: #000;
+}
+
+.welcome_content{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    color: white;
+
+}
+
+.discover{
+    align-self: center;
+    width: 440px;
+    height: 450px;
+    position: relative;
+}
+
+.discover_title{
+    font-family: 'Forum', serif;
+    font-size: 80px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.discover_title > span{
+    font-weight: 100;
+}
+
+.discover_description{
+    font-weight: 200;
+    font-size: 28px;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    margin-top: 25px;
+}
+
+.discover_button{
+    margin-top: 77px;
+}
+
+.discover_button_bg{
+    width: 360px;
+    height: 75px;
+    background-color: #710707;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discover_button_text{
+    font-size: 22px;
+    letter-spacing: 2px;
 }
