@@ -168,7 +168,6 @@ header{
 
 .visiting_content{
     width: 1440px;
-    height: 1116px;
     margin: 76px auto;
 }
 
@@ -186,7 +185,6 @@ h1{
     width: 100%;
     height: 3px;
     background: #710707;
-    margin-top: 1px;
 }
 
 .cards{
@@ -194,6 +192,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
+    margin-bottom: -15px;
 }
 
 .card{
@@ -231,3 +230,57 @@ h1{
     margin-bottom: 14px;
 }
 
+.explore{
+    background: #000;
+}
+
+.explore_content{
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    align-items: start;
+    padding: 75px 0 70px;
+}
+
+.text_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+
+.explore_title{
+    font-family: 'Forum', serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.text_block p{
+    line-height: 38.5px;
+    font-weight: 300;
+
+}
+
+.text_block span{
+    color: #9D8665;
+}
+
+.explore_line{
+    width: 100%;
+    height: 3px;
+    background: #710707;
+    margin: 25px 0 57px;
+}
+
+.explore_text{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 22px;
+}
+
+.picture_block{
+    margin-top: 15px;
+}
