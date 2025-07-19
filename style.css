@@ -63,10 +63,9 @@ header{
 }
 
 .discover{
-    align-self: center;
     width: 440px;
-    height: 450px;
     position: relative;
+    top: 152px;
 }
 
 .discover_title{
@@ -107,3 +106,63 @@ header{
     font-size: 22px;
     letter-spacing: 2px;
 }
+
+.promo_slider{
+    width: 600px;
+    height: 120px;
+    background: #000;
+    position: relative;
+    top: -65px;
+    left: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider_wrapper{
+    width: 575px;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 22px;
+    line-height: 40;
+}
+
+.slider_pages{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider_carousel{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+}
+
+.pagination{
+    width: 16px;
+    height: 16px;
+    background: #fff;
+}
+
+.slider_carousel :first-child{
+    background: #9D8665;
+}
+
+.slider_arrows{
+    display: flex;
+    width: 80px;
+    height: inherit;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 0px 0px 0px 0px;
+}
+
+.slider_arrows .right{
+    transform: scale(-1, 1);
+}
+
